@@ -16,6 +16,9 @@ retrofit = "2.11.0"
 koin = "4.0.2-RC3"
 workManager = "2.10.0"
 dataStore = "1.1.1"
+appcompat = "1.7.1"
+material = "1.12.0"
+jetbrainsKotlinJvm = "2.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -38,12 +41,14 @@ androidx-room-runtime = { group = "androidx.room", name = "room-runtime", versio
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
 androidx-room-paging = { group = "androidx.room", name = "room-paging", version.ref = "roomVersion" }
 room-kapt = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
-androidx-paging-compose = { group = "androidx.paging", name = "paging-compose", version.ref = "pagingCompose"}
-squareup-retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit"}
-koin-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin"}
-androidx-work-manager-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workManager"}
-androidx-data-store = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "dataStore"}
+androidx-paging-compose = { group = "androidx.paging", name = "paging-compose", version.ref = "pagingCompose" }
+squareup-retrofit2 = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+koin-compose = { group = "io.insert-koin", name = "koin-androidx-compose", version.ref = "koin" }
+androidx-work-manager-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "workManager" }
+androidx-data-store = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "dataStore" }
 androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 
 
@@ -55,4 +60,6 @@ android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 kotlin-kapt = { id = "kotlin-kapt" }
-
+android-library = { id = "com.android.library", version.ref = "agp" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
+untranslated = { id = "com.yandex.practicum.middle_homework_5.gradle_plugins.untranslated_strings" }
